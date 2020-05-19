@@ -1,0 +1,13 @@
+obfuscate
+	keepGenericsInfo=true
+    keepInnerClassInfo=false
+    methodParameters=keepVisibleIfNotObfuscated //can specify delete, keepVisible, keepVisibleIfNotObfuscated, obfuscate or keep
+    obfuscateFlow=none //can change from none to light, normal or aggressive
+    encryptStringLiterals=normal //can change from none to normal, aggressive or flowObfuscate
+    exceptionObfuscation=none //can change from none to light or heavy
+    autoReflectionHandling=none //can change from none to normal
+    randomize=false //can change from false to true
+    preverify=false
+    mixedCaseClassNames=false
+    keepBalancedLocks=true
+    ;
