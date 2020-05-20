@@ -67,7 +67,7 @@ JVM options: '-Xmx1536m', '-Dfile.encoding=GBK', '-Duser.country=CN', '-Duser.la
 
 Parallel processing active.
 
-[2020.05.19 11:56:48] Zelix KlassMaster 13.0.1 - License #15017
+[2020.05.20 11:21:48] Zelix KlassMaster 13.0.1 - License #15017
                       Single - Site
                       Jiaxing Justsy Information Technology Company
                       102 Fuxing West Road Jiaxing Nanhu, CN-33 China
@@ -76,16 +76,16 @@ Parallel processing active.
 
 Raw input
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-@C:\cygwin64\tmp\~ProguardStub1147178895062491488.tmp
+@C:\cygwin64\tmp\~ProguardStub4160370227966380631.tmp
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-Temporary input file 'C:\cygwin64\tmp\ZKM8357147458696563622.tmp' contents.
+Temporary input file 'C:\cygwin64\tmp\ZKM3389165128649653695.tmp' contents.
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
--include C:\cygwin64\tmp\~ProguardStub1147178895062491488.tmp
+-include C:\cygwin64\tmp\~ProguardStub4160370227966380631.tmp
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-Expanding '-include' 'C:\cygwin64\tmp\ZKM8357147458696563622.tmp'
-Expanding '-include' 'C:\cygwin64\tmp\~ProguardStub1147178895062491488.tmp'
+Expanding '-include' 'C:\cygwin64\tmp\ZKM3389165128649653695.tmp'
+Expanding '-include' 'C:\cygwin64\tmp\~ProguardStub4160370227966380631.tmp'
 
 Expanded and preprocessed ProGuard style input. Any line numbers in error messages will refer to this content.
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -138,7 +138,7 @@ Expanded and preprocessed ProGuard style input. Any line numbers in error messag
 -keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,*Annotation*
 -verbose
 -dontnote "com.android.vending.licensing.ILicensingService,com.google.vending.licensing.ILicensingService,com.google.android.vending.licensing.ILicensingService,android.support.**,androidx.**,org.apache.http.**,android.net.http.**,java.lang.invoke.**"
--dontwarn android.support.**,androidx.**,android.util.FloatMath,javax.annotation.**,org.codehaus.mojo.animal_sniffer.*,okhttp3.internal.platform.ConscryptPlatform,org.codehaus.mojo.animal_sniffer.*
+-dontwarn android.support.**,androidx.**,android.util.FloatMath,org.bouncycastle.jsse.BCSSLParameters,org.bouncycastle.jsse.provider.BouncyCastleJsseProvider,org.bouncycastle.jsse.BCSSLSocket,org.openjsse.net.ssl.OpenJSSE,org.openjsse.javax.net.ssl.SSLParameters,org.openjsse.javax.net.ssl.SSLSocket,org.conscrypt.ConscryptHostnameVerifier,org.conscrypt.Conscrypt,org.conscrypt.Conscrypt$ProviderBuilder,org.conscrypt.Conscrypt$Version,javax.annotation.**,org.codehaus.mojo.animal_sniffer.*,okhttp3.internal.platform.ConscryptPlatform,org.codehaus.mojo.animal_sniffer.*
 -printseeds "C:\Users\sun\git\zkm_okhttp4_demo\app\build\outputs\mapping\release\seeds.txt"
 -keep public class com.google.vending.licensing.ILicensingService
 -keep public class com.android.vending.licensing.ILicensingService
@@ -201,6 +201,7 @@ public static <fields>;
 @androidx.annotation.Keep
 <init>(...);
 }
+-keep class org.conscrypt.ConscryptHostnameVerifier
 -keep class androidx.core.app.CoreComponentFactory {
 <init>();
 }
@@ -378,5 +379,5 @@ MESSAGE: Will examine contents of file 'C:\Users\sun\git\zkm_okhttp4_demo\ZKMScr
 MESSAGE: Using 'obfuscate' statement found in 'C:\Users\sun\git\zkm_okhttp4_demo\ZKMScript.txt'
 MESSAGE: 'keepGenericsInfo' set to default to 'true' however both 'LocalVariableTypeTable' and 'Bridge' attributes were not specified to be retained.
 
-[2020.05.19 11:56:49] Default directory set to 'C:\Users\sun\git\zkm_okhttp4_demo'
-[2020.05.19 11:56:49] Zelix KlassMaster log file is 'C:\Users\sun\git\zkm_okhttp4_demo\app\build\outputs\mapping\release\seeds.txt'
+[2020.05.20 11:21:49] Default directory set to 'C:\Users\sun\git\zkm_okhttp4_demo'
+[2020.05.20 11:21:49] Zelix KlassMaster log file is 'C:\Users\sun\git\zkm_okhttp4_demo\app\build\outputs\mapping\release\seeds.txt'

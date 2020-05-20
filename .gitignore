@@ -12,3 +12,5 @@
 /captures
 .externalNativeBuild
 .cxx
+!/ChangeLog.txt
+!/ZKM_PG_log.txt
